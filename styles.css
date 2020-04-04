@@ -21,6 +21,18 @@ h2 {
     margin: 0 auto;
     text-align: center; 
 }
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+.subsection-h2 {
+    font-size: 1.5em;
+    text-align: start;
+    border-bottom: 1.5px solid #eaecef;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
 
 p { 
     color: #111; 
@@ -69,10 +81,12 @@ a:hover {
 }
 
 .icons {
-    margin: 4.5% auto;
-    float: none;
-    padding-left: 8%;
-    padding-right: 1%;
+    display: table;
+    margin: 0 auto;
+}
+
+.a-logo {
+    width: 35px;
 }
 
 .fa {
@@ -105,14 +119,6 @@ a:hover {
 .fa-envelope {
     background: #dd4b39;
     color: white;
-}
-
-.a-logo {
-    width: 35px;
-    margin-left: -2%;
-}
-#gs-logo {
-    padding-left: 33%;
 }
 
 #menu {
